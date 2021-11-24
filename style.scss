@@ -1,0 +1,80 @@
+body{
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 50px 100px;
+    p{
+        padding-left: 50px;
+    }
+
+}
+.header_sale{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 50px 100px;
+    img{
+        padding-right: 30px;
+    }
+
+    .icon{
+        background-image: url(./img/icon.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid #E9E9F0;
+        box-sizing: border-box;
+        border-radius: 8px;
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+        background-color: white;
+        
+    }
+    .icon:hover{
+        opacity: 10%;
+        background: rgb(0,34,36);
+        background: linear-gradient(90deg, rgb(0, 90, 95) 43%, rgba(9,115,121,1) 52%, rgba(0,212,255,1) 100%);
+    }
+  
+
+}
+.button_sale{
+    width: 245px;
+    height: 50px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;  
+    background-color: rgb(255, 255, 255);
+    
+}
+.button_sale:hover{
+    opacity: 10%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 90, 95) 43%, rgba(9,115,121,1) 52%, rgba(0,212,255,1) 100%);
+    
+}
+
+
+.header_title{
+    text-align: center;
+    padding-top: 198px;
+    
+}
+.header_phone{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/badges.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    img{
+        padding-top: 50px;
+    }
+}

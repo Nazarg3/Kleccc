@@ -1,0 +1,95 @@
+body {
+  font-family: "Comforter Brush", cursive;
+  font-family: "Manrope", sans-serif;
+}
+
+.header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px 50px 100px;
+}
+.header_logo p {
+  padding-left: 50px;
+}
+
+.header_sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px 50px 100px;
+}
+.header_sale img {
+  padding-right: 30px;
+}
+.header_sale .icon {
+  background-image: url(./img/icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #E9E9F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  background-color: white;
+}
+.header_sale .icon:hover {
+  opacity: 10%;
+  background: #002224;
+  background: -webkit-gradient(linear, left top, right top, color-stop(43%, #005a5f), color-stop(52%, #097379), to(#00d4ff));
+  background: linear-gradient(90deg, #005a5f 43%, #097379 52%, #00d4ff 100%);
+}
+
+.button_sale {
+  width: 245px;
+  height: 50px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.button_sale:hover {
+  opacity: 10%;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, color-stop(43%, #005a5f), color-stop(52%, #097379), to(#00d4ff));
+  background: linear-gradient(90deg, #005a5f 43%, #097379 52%, #00d4ff 100%);
+}
+
+.header_title {
+  text-align: center;
+  padding-top: 198px;
+}
+
+.header_phone {
+  padding-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(./img/badges.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.header_phone img {
+  padding-top: 50px;
+}
